@@ -22,7 +22,7 @@ print("Teléfono agregado:", informacion_personal["telefono"])
 del informacion_personal["edad"]
 print("Clave 'edad' eliminada.")
 
-#Imprimir el diccionario final.
+#Imprimir el diccionario final
 print("\nDiccionario final:")
 for clave, valor in informacion_personal.items():
     print(f"{clave}: {valor}")
